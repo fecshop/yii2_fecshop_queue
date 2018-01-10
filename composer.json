@@ -1,0 +1,36 @@
+{  
+      "name": "fancyecommerce/fecshop_queue",  
+      "description": "fecshop queue extension ",  
+      "keywords": [  
+        "yii2",  
+        "fecshop",
+        "queue"
+      ],  
+      "homepage": "https://github.com/fecshop/yii2_fecshop_queue",  
+      "type": "yii2-extension",  
+      "license": "BSD 3-Clause",  
+      "support": {  
+        "source": "https://github.com/fecshop/yii2_fecshop_queue"  
+      },  
+      "authors": [  
+        {  
+          "name": "terry",  
+          "email": "2358269014@qq.com"  
+        }  
+      ],  
+      "minimum-stability": "stable",  
+      "require": {  
+        "php": ">=5.4.0" 
+      },  
+      "autoload": {  
+        "psr-4": {  
+          "fecshop\\queue\\": ""  
+        }  
+      },  
+      "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+      ]
+}
