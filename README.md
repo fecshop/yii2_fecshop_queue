@@ -7,10 +7,10 @@
     <br>
 </p>
 
-Fecshop Queue Extension
-----------------------
+### Fecshop 队列扩展
 
-Fecshop queue 功能部分，用于扩展一些队列的功能
+
+> Fecshop queue 功能部分，用于扩展一些队列的功能
 
 1.安装
 
