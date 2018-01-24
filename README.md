@@ -12,7 +12,7 @@ composer require --prefer-dist fancyecommerce/fecshop_queue
 or 在根目录的`composer.json`中添加
 
 ```
-"fancyecommerce/fecshop_queue": "~1.0.2"
+"fancyecommerce/fecshop_queue": "~1.0.3"
 
 ```
 
