@@ -2,7 +2,7 @@
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="http://img.appfront.fancyecommerce.com/custom/logo.png" height="100px">
     </a>
-    <h1 align="center">Fecshop Queue Extension</h1>
+    <h1 align="center" style="font-size:14px;">Fecshop Queue Extension</h1>
     <br>
 </p>
 
