@@ -1,18 +1,23 @@
-<p align="center">
-    <br>
-    <a href="https://github.com/yiisoft" target="_blank">
-        <img src="http://img.appfront.fancyecommerce.com/custom/logo.png" >
-    </a>
-    <h2 align="center" style="font-size:14px;"></h2>
-    <br>
+<p>
+  <a href="http://fecshop.appfront.fancyecommerce.com/">
+    <img src="http://img.appfront.fancyecommerce.com/custom/logo.png">
+  </a>
 </p>
+<br/>
 
-### Fecshop 队列扩展
+[![Latest Stable Version](https://poser.pugx.org/fancyecommerce/fecshop_queue/v/stable)](https://packagist.org/packages/fancyecommerce/fecshop_queue)
+[![Total Downloads](https://poser.pugx.org/fancyecommerce/fecshop_queue/downloads)](https://packagist.org/packages/fancyecommerce/fecshop_queue)
+[![Latest Unstable Version](https://poser.pugx.org/fancyecommerce/fecshop_queue/v/unstable)](https://packagist.org/packages/fancyecommerce/fecshop_queue)
+
+
+
+Fecshop 队列扩展
 
 
 > Fecshop queue 功能部分，用于扩展一些队列的功能
 
 1.安装
+--------
 
 ```
 composer require --prefer-dist fancyecommerce/fecshop_queue 
