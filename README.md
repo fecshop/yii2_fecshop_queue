@@ -3,9 +3,12 @@
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="http://img.appfront.fancyecommerce.com/custom/logo.png" >
     </a>
-    <h2 align="center" style="font-size:14px;">Fecshop Queue Extension</h2>
+    <h2 align="center" style="font-size:14px;"></h2>
     <br>
 </p>
+
+Fecshop Queue Extension
+----------------------
 
 Fecshop queue 功能部分，用于扩展一些队列的功能
 
