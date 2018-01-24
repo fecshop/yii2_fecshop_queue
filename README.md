@@ -1,7 +1,12 @@
-Fecshop Queue
-======================
+<p align="center">
+    <a href="https://github.com/yiisoft" target="_blank">
+        <img src="http://img.appfront.fancyecommerce.com/custom/logo.png" height="100px">
+    </a>
+    <h1 align="center">Fecshop Queue Extension</h1>
+    <br>
+</p>
 
-> fecshop queue 功能部分，用于扩展一些队列的功能
+Fecshop queue 功能部分，用于扩展一些队列的功能
 
 1.安装
 
