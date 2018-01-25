@@ -23,8 +23,15 @@ return [
                 'components' => [
                     'queue' => [
                         'class'  => \yii\queue\redis\Queue::class,
-                        'as log' => \yii\queue\LogBehavior::class,
+                        //'as log' => \yii\queue\LogBehavior::class,
+                        'ttr' => 5 * 60, // Max time for anything job handling 
+                        'attempts' => 3, // Max number of attempts
                         // 驱动的其他选项
+                    ],
+                ],
+                'services' => [
+                    'email' => [
+                        'class' => 'fecshop\queue\services\Email',
                     ],
                 ],
                 'modules' => [
