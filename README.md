@@ -39,11 +39,13 @@ composer update
 ```
 
 
-配置
+配置文件
 -------
 
-将@fecshop\queue\config\fecshop_queue.php 复制到
-@common\config\fecshop_third_extensions\下
+将@vendor\fancyecommerce\fecshop_queue\config\fecshop_queue.php 复制到
+@common\config\fecshop_third_extensions\fecshop_queue.php(需要创建该文件)
+
+该文件是扩展的配置文件，通过上面的操作，加入到fecshop的插件配置中。
 
 使用
 ------
