@@ -8,7 +8,7 @@
 [![Latest Stable Version](https://poser.pugx.org/fancyecommerce/fecshop_queue/v/stable)](https://packagist.org/packages/fancyecommerce/fecshop_queue)
 [![Total Downloads](https://poser.pugx.org/fancyecommerce/fecshop_queue/downloads)](https://packagist.org/packages/fancyecommerce/fecshop_queue)
 [![Latest Unstable Version](https://poser.pugx.org/fancyecommerce/fecshop_queue/v/unstable)](https://packagist.org/packages/fancyecommerce/fecshop_queue)
-[![License](https://poser.pugx.org/fancyecommerce/fecshop_redis_cart/license)](https://packagist.org/packages/fancyecommerce/fecshop_redis_cart)
+
 
 
 Fecshop 队列扩展

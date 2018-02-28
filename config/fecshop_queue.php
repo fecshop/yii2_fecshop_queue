@@ -8,17 +8,17 @@
 
 return [
     /**
-     * ÏÂÃæÊÇµÚÈý·½À©Õ¹¿â°üµÄÅäÖÃ·½Ê½
+     * ä¸‹é¢æ˜¯ç¬¬ä¸‰æ–¹æ‰©å±•åº“åŒ…çš„é…ç½®æ–¹å¼
      */
-    // Õâ¸öÊÇÀ©Õ¹extensionsµÄ×Ü¿ª¹Ø£¬true´ú±í´ò¿ª
+    // è¿™ä¸ªæ˜¯æ‰©å±•extensionsçš„æ€»å¼€å…³ï¼Œtrueä»£è¡¨æ‰“å¼€
     'enable' => true, 
-    // ¸÷¸öÈë¿ÚµÄÅäÖÃ
+    // å„ä¸ªå…¥å£çš„é…ç½®
     'app' => [
-        // 1.¹«ÓÃ²ã
+        // 1.å…¬ç”¨å±‚
         'common' => [
-            // ÔÚ¹«ÓÃ²ãµÄ¿ª¹Ø£¬ÉèÖÃ³Éfalseºó£¬¹«ÓÃ²ãµÄÅäÖÃ½«Ê§Ð§
+            // åœ¨å…¬ç”¨å±‚çš„å¼€å…³ï¼Œè®¾ç½®æˆfalseåŽï¼Œå…¬ç”¨å±‚çš„é…ç½®å°†å¤±æ•ˆ
             'enable' => true,
-            // ¹«ÓÃ²ãµÄ¾ßÌåÅäÖÃÏÂÔØÏÂÃæ
+            // å…¬ç”¨å±‚çš„å…·ä½“é…ç½®ä¸‹è½½ä¸‹é¢
             'config' => [
                 'components' => [
                     'queue' => [
@@ -26,7 +26,7 @@ return [
                         //'as log' => \yii\queue\LogBehavior::class,
                         'ttr' => 5 * 60, // Max time for anything job handling 
                         'attempts' => 3, // Max number of attempts
-                        // Çý¶¯µÄÆäËûÑ¡Ïî
+                        // é©±åŠ¨çš„å…¶ä»–é€‰é¡¹
                     ],
                 ],
                 'services' => [
@@ -44,7 +44,7 @@ return [
             'enable' => true,
             'config' => [
                 'bootstrap' => [
-                    'queue', // °ÑÕâ¸ö×é¼þ×¢²áµ½¿ØÖÆÌ¨
+                    'queue', // æŠŠè¿™ä¸ªç»„ä»¶æ³¨å†Œåˆ°æŽ§åˆ¶å°
                 ],
             ],
         ],
